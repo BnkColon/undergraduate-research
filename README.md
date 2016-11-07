@@ -11,6 +11,7 @@ My work is supported by the scholarship [Academics and Training for the Advancem
 
 ##Contact Info:
 e-mail: bianca.colon1@upr.edu 
+
 Github: [https://github.com/BnkColon](https://github.com/BnkColon)
 
 #Project Goals
@@ -37,3 +38,12 @@ The Benford’s Law was effective with our flows. An important advantage of this
 
 ##Second Semester 2015-2016
 This semester, we want to implement [NAB](http://arxiv.org/pdf/1510.03336v4.pdf), so we can compare and evaluate different algorithms for detecting anomalies in streaming data. Also we want use NAB with our SiLK flows, and run our Bendford's Algorithms with their flows, that are already labeled with real anomalies.
+
+###Results
+We start comparing the expected curve provided by Benford’s Law with the results obtained from the data labeled as no anomalies. We notice some differences that should not be there assuming the data don’t have anomalies. To find more information about this differences we search the deviations from the Benford theoretical curve. In the graph of the Deviations from the Benford Theoretical Curve, there’s a gap between the days from September 5 and some hours of September 9 in the provided data. We didn’t notice that until we make this graph. Also, looking the graph we need to find information to define the real anomalies. We want to prognosticate how close or far the deviation need to be from zero to be counted as a TP, FP, FN, TN.
+
+###Conclusion
+In order to prove that the Benford’s Law can detect anomalies in Network Flows we need to continue validating the algorithm with labeled data. NAB provide a lot of files with data, but we don’t get enought time to inspect all the files. Also we need to define when we classify the results of the Deviations from the Benford theorical curve as a real anomaly. An important advantage of this method is that malware cannot easily adapt their communication pattern to conform to the logarithmic distribution of first digits.
+
+###Future Work
+We want to analyze more the utility of this law, we want to compare the results of the Deviations from the Benford theorical curve with the octets in the same flows. Also, we will explore new approaches to find new techniques. Implement these techniques for anomaly detection to our collection of flows from UPR’s network, and compare results with the results of current techniques. If those techniques are effective we can use it in real time flow collection and build an alerting system to notify the anomalies as soon as they are detected.
