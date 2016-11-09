@@ -10,6 +10,8 @@ My career short term goals are to finish my degree in Computer Science and still
 My work is supported by the scholarship [Academics and Training for the Advancement of Cybersecurity Knowledge in Puerto Rico (ATACK-PR)](http://atackpr.ccom.uprrp.edu/) supported by the National Science Foundation under Grant No. DUE-1438838.
 
 ##Contact Info:
+web: [bnkcolon.github.io](bnkcolon.github.io)
+
 e-mail: bianca.colon1@upr.edu 
 
 Github: [https://github.com/BnkColon](https://github.com/BnkColon)
